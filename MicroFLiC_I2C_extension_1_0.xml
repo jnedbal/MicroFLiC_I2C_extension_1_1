@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/MicroFLiC_I2C_extension_1_0/MicroFLiC_I2C_extension_1_0.sch</source>
+    <date>Wed 05 Aug 2015 20:44:46 BST</date>
+    <tool>Eeschema (2015-03-02 BZR 5466)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Flow Unit Shield</title>
+        <company>King's College London</company>
+        <rev>1.2</rev>
+        <date>18 Jun 2014</date>
+        <source>MicroFLiC_I2C_extension_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P4">
+      <value>Header_1x4</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <fields>
+        <field name="Part Number">HTSW-104-15-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Order Code">1926221</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54DF35DA</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Socket_1x14</value>
+      <footprint>jakub:ESQ-114-33-G-S</footprint>
+      <fields>
+        <field name="Part Number">ESQ-114-33-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Order Code">1930609</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556973F8</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>Header_1x14</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
+      <fields>
+        <field name="Part Number">HTSW-114-15-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Order Code">2010798</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5569748E</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>DB15-VGA</value>
+      <footprint>jakub:dsub15</footprint>
+      <fields>
+        <field name="Part Number">L77HDE15SD1CH4F</field>
+        <field name="Manufacturer">Amphenol</field>
+        <field name="Order Code">2401182</field>
+      </fields>
+      <libsource lib="jakub" part="DB15-VGA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556B82EF</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>RJ45</value>
+      <footprint>jakub:RJ45</footprint>
+      <fields>
+        <field name="Part Number">95501-2881</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Order Code">1524544</field>
+      </fields>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556B8802</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>DIPS_04</value>
+      <footprint>jakub:DIP4RA</footprint>
+      <fields>
+        <field name="Part Number">MCDA04</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">9471545</field>
+      </fields>
+      <libsource lib="jakub" part="DIPS_04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556F84F5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556F868C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556F873C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556F877B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>556F87FD</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>jakub:tactileSwitchRA</footprint>
+      <fields>
+        <field name="Part Number">MCDTSA6-5N</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">9471804</field>
+      </fields>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55738611</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>8-188275-4</value>
+      <footprint>jakub:1-188275-4</footprint>
+      <fields>
+        <field name="Part Number">8-188275-4</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Order Code">3784769</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X07"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573894C</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>Socket_1x4</value>
+      <footprint>jakub:ESQ-104-33-G-S</footprint>
+      <fields>
+        <field name="Part Number">ESQ-104-33-G-S</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Order Code">1928522</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55C2BA8F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X14">
+      <footprints>
+        <fp>Pin_Header_Straight_1X14</fp>
+        <fp>Pin_Header_Angled_1X14</fp>
+        <fp>Socket_Strip_Straight_1X14</fp>
+        <fp>Socket_Strip_Angled_1X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X07">
+      <footprints>
+        <fp>Pin_Header_Straight_2X07</fp>
+        <fp>Pin_Header_Angled_2X07</fp>
+        <fp>Socket_Strip_Straight_2X07</fp>
+        <fp>Socket_Strip_Angled_2X07</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X07</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="DB15-VGA">
+      <footprints>
+        <fp>DB15*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15-VGA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P111" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="SHIELD" type="passive"/>
+        <pin num="17" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="DIPS_04">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">DIPS_04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SDA_5V">
+      <node ref="P6" pin="14"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P7" pin="4"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="2" name="/SCL_3V3">
+      <node ref="P4" pin="4"/>
+      <node ref="P5" pin="4"/>
+      <node ref="P7" pin="7"/>
+      <node ref="P6" pin="13"/>
+    </net>
+    <net code="3" name="/SDA_3V3">
+      <node ref="P4" pin="3"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P6" pin="12"/>
+      <node ref="P7" pin="5"/>
+    </net>
+    <net code="4" name="/SCL_5V">
+      <node ref="P5" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P7" pin="2"/>
+      <node ref="P6" pin="15"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="P7" pin="6"/>
+      <node ref="P2" pin="13"/>
+      <node ref="P1" pin="13"/>
+      <node ref="SW2" pin="7"/>
+      <node ref="SW2" pin="8"/>
+      <node ref="SW2" pin="6"/>
+      <node ref="SW2" pin="5"/>
+    </net>
+    <net code="6" name="+5VP">
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="10"/>
+      <node ref="P2" pin="10"/>
+      <node ref="P2" pin="9"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="7" name="/D3">
+      <node ref="P3" pin="14"/>
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="8" name="/D2">
+      <node ref="P6" pin="2"/>
+      <node ref="P3" pin="12"/>
+    </net>
+    <net code="9" name="/A1">
+      <node ref="P3" pin="11"/>
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="10" name="/A0">
+      <node ref="P3" pin="9"/>
+      <node ref="P6" pin="5"/>
+    </net>
+    <net code="11" name="/~SS">
+      <node ref="P6" pin="10"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="12" name="/MOSI">
+      <node ref="P3" pin="5"/>
+      <node ref="P6" pin="9"/>
+    </net>
+    <net code="13" name="/MISO">
+      <node ref="P3" pin="3"/>
+      <node ref="P6" pin="8"/>
+    </net>
+    <net code="14" name="/SCLK">
+      <node ref="P6" pin="7"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(P7-Pad9)">
+      <node ref="P7" pin="9"/>
+    </net>
+    <net code="16" name="/A2">
+      <node ref="P6" pin="3"/>
+      <node ref="P3" pin="13"/>
+    </net>
+    <net code="17" name="/RST">
+      <node ref="P3" pin="10"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="P2" pin="3"/>
+      <node ref="P6" pin="11"/>
+      <node ref="P2" pin="7"/>
+      <node ref="P2" pin="8"/>
+      <node ref="P2" pin="14"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="12"/>
+      <node ref="P2" pin="11"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P6" pin="17"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P7" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P6" pin="6"/>
+      <node ref="P7" pin="3"/>
+      <node ref="P6" pin="16"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="11"/>
+      <node ref="P1" pin="14"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="P1" pin="12"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="19" name="/SW2">
+      <node ref="SW2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P3" pin="4"/>
+    </net>
+    <net code="20" name="/SW1">
+      <node ref="R1" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="21" name="/SW4">
+      <node ref="P3" pin="8"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW2" pin="4"/>
+    </net>
+    <net code="22" name="/SW3">
+      <node ref="R3" pin="1"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="23" name="+2V5">
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="24" name="+12V">
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+  </nets>
+</export>
