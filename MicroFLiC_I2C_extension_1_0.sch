@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_I2C_extension_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -475,21 +476,21 @@ F 6 "2073607" V 5550 3400 60  0001 C CNN "Order Code"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2650 5250 3150
+	5250 2650 5250 3250
 Wire Wire Line
-	5350 2650 5350 3150
+	5350 2650 5350 3250
 Wire Wire Line
-	5450 2650 5450 3150
+	5450 2650 5450 3250
 Wire Wire Line
-	5550 2650 5550 3150
+	5550 2650 5550 3250
 Wire Wire Line
-	5250 3650 5250 3850
+	5250 3550 5250 3850
 Wire Wire Line
-	5350 3650 5350 3850
+	5350 3550 5350 3850
 Wire Wire Line
-	5450 3850 5450 3650
+	5450 3850 5450 3550
 Wire Wire Line
-	5550 3850 5550 3650
+	5550 3850 5550 3550
 Wire Wire Line
 	5250 3850 5550 3850
 Wire Wire Line
