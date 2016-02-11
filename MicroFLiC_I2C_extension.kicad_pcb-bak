@@ -3,7 +3,7 @@
   (general
     (links 70)
     (no_connects 0)
-    (area 100.025999 100.025999 149.910001 149.910001)
+    (area 99.001476 87.834999 151.474334 154.757001)
     (thickness 1.6)
     (drawings 84)
     (tracks 253)
@@ -71,7 +71,7 @@
     (pad_size 1.4 0.3)
     (pad_drill 0)
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 0 0)
+    (aux_axis_origin 100.076 149.86)
     (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
@@ -172,7 +172,7 @@
     (fp_text reference P7 (at -7.112 -2.032 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value RJ45 (at 0 15.875 180) (layer F.Fab)
+    (fp_text value RJ45 (at 0 16.002 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -7.62 -1.33) (end 7.62 -1.33) (layer F.SilkS) (width 0.15))

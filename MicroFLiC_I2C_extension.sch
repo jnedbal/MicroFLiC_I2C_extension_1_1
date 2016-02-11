@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_I2C_extension_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_I2C_extension_1_0-cache
+LIBS:MicroFLiC_I2C_extension-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -58,9 +57,14 @@ F 0 "P4" H 6850 4700 50  0000 C CNN
 F 1 "Header_1x4" V 6950 4450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6850 4450 60  0001 C CNN
 F 3 "" H 6850 4450 60  0000 C CNN
-F 4 "HTSW-104-15-G-S" H 6850 4450 60  0001 C CNN "Part Number"
+F 4 "M20-9990445" H 6850 4450 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 6850 4450 60  0001 C CNN "Manufacturer"
-F 6 "1926221" H 6850 4450 60  0001 C CNN "Order Code"
+F 6 "SIL-4" H 6850 4450 60  0001 C CNN "Package"
+F 7 "Farnell" H 6850 4450 60  0001 C CNN "Supplier"
+F 8 "1022250" H 6850 4450 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6850 4450 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9990445" H 6850 4450 60  0001 C CNN "Alt. Order Code"
+F 11 "1x4 header strip" H 6850 4450 60  0001 C CNN "Note"
 	1    6850 4450
 	-1   0    0    -1  
 $EndComp
@@ -102,7 +106,12 @@ F 2 "jakub:ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN
 F 3 "" H 2500 1950 60  0000 C CNN
 F 4 "ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 2500 1950 60  0001 C CNN "Manufacturer"
-F 6 "1930609" H 2500 1950 60  0001 C CNN "Order Code"
+F 6 "SIL-14" H 2500 1950 60  0001 C CNN "Package"
+F 7 "Farnell" H 2500 1950 60  0001 C CNN "Supplier"
+F 8 "1930609" H 2500 1950 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 2500 1950 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN "Alt. Order Code"
+F 11 "1x14 ESQ series elevated socket strip" H 2500 1950 60  0001 C CNN "Note"
 	1    2500 1950
 	1    0    0    -1  
 $EndComp
@@ -116,7 +125,12 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x14" H 1300 1950 60  0001 C CNN
 F 3 "" H 1300 1950 60  0000 C CNN
 F 4 "MC34735" H 1300 1950 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 1300 1950 60  0001 C CNN "Manufacturer"
-F 6 "1593421" H 1300 1950 60  0001 C CNN "Order Code"
+F 6 "SIL-14" H 1300 1950 60  0001 C CNN "Package"
+F 7 "Farnell" H 1300 1950 60  0001 C CNN "Supplier"
+F 8 "1593421" H 1300 1950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1300 1950 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9991446" H 1300 1950 60  0001 C CNN "Alt. Order Code"
+F 11 "1x14 header strip" H 1300 1950 60  0001 C CNN "Note"
 	1    1300 1950
 	-1   0    0    -1  
 $EndComp
@@ -267,7 +281,12 @@ F 2 "jakub:dsub15" H 8900 1950 60  0001 C CNN
 F 3 "" H 8900 1950 60  0000 C CNN
 F 4 "L77HDE15SD1CH4F" H 8900 1950 60  0001 C CNN "Part Number"
 F 5 "Amphenol" H 8900 1950 60  0001 C CNN "Manufacturer"
-F 6 "2401182" H 8900 1950 60  0001 C CNN "Order Code"
+F 6 "DSUB15" H 8900 1950 60  0001 C CNN "Package"
+F 7 "Farnell" H 8900 1950 60  0001 C CNN "Supplier"
+F 8 "2401182" H 8900 1950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8900 1950 60  0001 C CNN "Alt. Supplier"
+F 10 "523-L77HDE15SD1CH4F" H 8900 1950 60  0001 C CNN "Alt. Order Code"
+F 11 "15-way D-Sub high density connector" H 8900 1950 60  0001 C CNN "Note"
 	1    8900 1950
 	1    0    0    -1  
 $EndComp
@@ -281,7 +300,12 @@ F 2 "jakub:RJ45" H 8900 4450 60  0001 C CNN
 F 3 "" H 8900 4450 60  0000 C CNN
 F 4 "95501-2881" H 8900 4450 60  0001 C CNN "Part Number"
 F 5 "Molex" H 8900 4450 60  0001 C CNN "Manufacturer"
-F 6 "1524544" H 8900 4450 60  0001 C CNN "Order Code"
+F 6 "RJ45" H 8900 4450 60  0001 C CNN "Package"
+F 7 "Farnell" H 8900 4450 60  0001 C CNN "Supplier"
+F 8 "1524544" H 8900 4450 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8900 4450 60  0001 C CNN "Alt. Supplier"
+F 10 "538-95501-2881" H 8900 4450 60  0001 C CNN "Alt. Order Code"
+F 11 "RJ45 8-way R/A jack" H 8900 4450 60  0001 C CNN "Note"
 	1    8900 4450
 	0    1    1    0   
 $EndComp
@@ -415,7 +439,12 @@ F 2 "jakub:DIP4RA" H 5400 2450 60  0001 C CNN
 F 3 "" H 5400 2450 60  0000 C CNN
 F 4 "MCDA04" V 5400 2450 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5400 2450 60  0001 C CNN "Manufacturer"
-F 6 "9471545" V 5400 2450 60  0001 C CNN "Order Code"
+F 6 "DIL-8" H 5400 2450 60  0001 C CNN "Package"
+F 7 "Farnell" H 5400 2450 60  0001 C CNN "Supplier"
+F 8 "9471545" V 5400 2450 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5400 2450 60  0001 C CNN "Alt. Supplier"
+F 10 "642-DPL04" H 5400 2450 60  0001 C CNN "Alt. Order Code"
+F 11 "4x vertical SPST DIP switch" H 5400 2450 60  0001 C CNN "Note"
 	1    5400 2450
 	1    0    0    -1  
 $EndComp
@@ -429,7 +458,12 @@ F 2 "Resistors_SMD:R_0805" V 5180 3400 30  0001 C CNN
 F 3 "" H 5250 3400 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 5250 3400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5250 3400 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 5250 3400 60  0001 C CNN "Order Code"
+F 6 "0805" H 5250 3400 60  0001 C CNN "Package"
+F 7 "Farnell" H 5250 3400 60  0001 C CNN "Supplier"
+F 8 "2073607" V 5250 3400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5250 3400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 5250 3400 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 5250 3400 60  0001 C CNN "Note"
 	1    5250 3400
 	1    0    0    -1  
 $EndComp
@@ -443,7 +477,12 @@ F 2 "Resistors_SMD:R_0805" V 5280 3400 30  0001 C CNN
 F 3 "" H 5350 3400 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 5350 3400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5350 3400 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 5350 3400 60  0001 C CNN "Order Code"
+F 6 "0805" H 5350 3400 60  0001 C CNN "Package"
+F 7 "Farnell" H 5350 3400 60  0001 C CNN "Supplier"
+F 8 "2073607" V 5350 3400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5350 3400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 5350 3400 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 5350 3400 60  0001 C CNN "Note"
 	1    5350 3400
 	1    0    0    -1  
 $EndComp
@@ -457,7 +496,12 @@ F 2 "Resistors_SMD:R_0805" V 5380 3400 30  0001 C CNN
 F 3 "" H 5450 3400 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 5450 3400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5450 3400 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 5450 3400 60  0001 C CNN "Order Code"
+F 6 "0805" H 5450 3400 60  0001 C CNN "Package"
+F 7 "Farnell" H 5450 3400 60  0001 C CNN "Supplier"
+F 8 "2073607" V 5450 3400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5450 3400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 5450 3400 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 5450 3400 60  0001 C CNN "Note"
 	1    5450 3400
 	1    0    0    -1  
 $EndComp
@@ -471,7 +515,12 @@ F 2 "Resistors_SMD:R_0805" V 5480 3400 30  0001 C CNN
 F 3 "" H 5550 3400 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 5550 3400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 5550 3400 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 5550 3400 60  0001 C CNN "Order Code"
+F 6 "0805" H 5550 3400 60  0001 C CNN "Package"
+F 7 "Farnell" H 5550 3400 60  0001 C CNN "Supplier"
+F 8 "2073607" V 5550 3400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5550 3400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 5550 3400 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 5550 3400 60  0001 C CNN "Note"
 	1    5550 3400
 	1    0    0    -1  
 $EndComp
@@ -574,7 +623,12 @@ F 2 "jakub:tactileSwitchRA" H 3600 4500 60  0001 C CNN
 F 3 "" H 3600 4500 60  0000 C CNN
 F 4 "MCDTSA6-5N" H 3600 4500 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3600 4500 60  0001 C CNN "Manufacturer"
-F 6 "9471804" H 3600 4500 60  0001 C CNN "Order Code"
+F 6 "RA pushbutton" H 3600 4500 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 4500 60  0001 C CNN "Supplier"
+F 8 "9471804" H 3600 4500 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 4500 60  0001 C CNN "Alt. Supplier"
+F 10 "506-FSMRA3JH" H 3600 4500 60  0001 C CNN "Alt. Order Code"
+F 11 "R/A tactile switch" H 3600 4500 60  0001 C CNN "Note"
 	1    3600 4500
 	1    0    0    -1  
 $EndComp
@@ -603,7 +657,12 @@ F 2 "jakub:1-188275-4" H 2600 3200 60  0001 C CNN
 F 3 "" H 2600 3200 60  0000 C CNN
 F 4 "8-188275-4" H 2600 4400 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2600 4400 60  0001 C CNN "Manufacturer"
-F 6 "3784769" H 2600 4400 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch SMD 14" H 2600 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 2600 4400 60  0001 C CNN "Supplier"
+F 8 "3784769" H 2600 4400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2600 4400 60  0001 C CNN "Alt. Supplier"
+F 10 "571-8-188275-4" H 2600 4400 60  0001 C CNN "Alt. Order Code"
+F 11 "14-way SMD Micro-MaTch connector" H 2600 4400 60  0001 C CNN "Note"
 	1    2600 4400
 	1    0    0    -1  
 $EndComp
@@ -633,7 +692,12 @@ F 2 "jakub:ESQ-104-33-G-S" H 6850 5100 60  0001 C CNN
 F 3 "" H 6850 5100 60  0000 C CNN
 F 4 "ESQ-104-33-G-S" H 6850 5100 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 6850 5100 60  0001 C CNN "Manufacturer"
-F 6 "1928522" H 6850 5100 60  0001 C CNN "Order Code"
+F 6 "SIL-4" H 6850 5100 60  0001 C CNN "Package"
+F 7 "Farnell" H 6850 5100 60  0001 C CNN "Supplier"
+F 8 "1928522" H 6850 5100 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 6850 5100 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-104-33-G-S" H 6850 5100 60  0001 C CNN "Alt. Order Code"
+F 11 "1x4 ESQ series elevated socket strip" H 6850 5100 60  0001 C CNN "Note"
 	1    6850 5100
 	-1   0    0    -1  
 $EndComp
