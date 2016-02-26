@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jakub/KiCAD/MicroFLiC_I2C_extension_1_1/MicroFLiC_I2C_extension.sch)
-    (date "Thu 11 Feb 2016 15:59:22 GMT")
+    (date "Fri 26 Feb 2016 22:45:48 GMT")
     (tool "Eeschema (2015-12-10 BZR 6367)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,7 +16,7 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref P4)
-      (value Header_1x4)
+      (value "1x4 header strip")
       (footprint Pin_Headers:Pin_Header_Straight_1x04)
       (fields
         (field (name "Part Number") M20-9990445)
@@ -31,7 +31,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54DF35DA))
     (comp (ref P2)
-      (value Socket_1x14)
+      (value "1x14 socket strip")
       (footprint jakub:ESQ-114-33-G-S)
       (fields
         (field (name "Part Number") ESQ-114-33-G-S)
@@ -46,7 +46,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 556973F8))
     (comp (ref P1)
-      (value Header_1x14)
+      (value "1x14 header strip")
       (footprint Pin_Headers:Pin_Header_Straight_1x14)
       (fields
         (field (name "Part Number") MC34735)
@@ -166,7 +166,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 556F87FD))
     (comp (ref SW1)
-      (value SW_PUSH)
+      (value "Tactile switch R/A")
       (footprint jakub:tactileSwitchRA)
       (fields
         (field (name "Part Number") MCDTSA6-5N)
@@ -181,7 +181,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55738611))
     (comp (ref P3)
-      (value "Micro-MaTch 14 way")
+      (value "14-way Micro-MaTch")
       (footprint jakub:1-188275-4)
       (fields
         (field (name "Part Number") 8-188275-4)
@@ -196,7 +196,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5573894C))
     (comp (ref P5)
-      (value Socket_1x4)
+      (value "1x4 socket strip")
       (footprint jakub:ESQ-104-33-G-S)
       (fields
         (field (name "Part Number") ESQ-104-33-G-S)

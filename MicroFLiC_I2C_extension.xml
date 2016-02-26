@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_I2C_extension_1_1/MicroFLiC_I2C_extension.sch</source>
-    <date>Thu 11 Feb 2016 15:59:24 GMT</date>
+    <date>Fri 26 Feb 2016 22:45:49 GMT</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -20,7 +20,7 @@
   </design>
   <components>
     <comp ref="P4">
-      <value>Header_1x4</value>
+      <value>1x4 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
       <fields>
         <field name="Part Number">M20-9990445</field>
@@ -37,7 +37,7 @@
       <tstamp>54DF35DA</tstamp>
     </comp>
     <comp ref="P2">
-      <value>Socket_1x14</value>
+      <value>1x14 socket strip</value>
       <footprint>jakub:ESQ-114-33-G-S</footprint>
       <fields>
         <field name="Part Number">ESQ-114-33-G-S</field>
@@ -54,7 +54,7 @@
       <tstamp>556973F8</tstamp>
     </comp>
     <comp ref="P1">
-      <value>Header_1x14</value>
+      <value>1x14 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
       <fields>
         <field name="Part Number">MC34735</field>
@@ -190,7 +190,7 @@
       <tstamp>556F87FD</tstamp>
     </comp>
     <comp ref="SW1">
-      <value>SW_PUSH</value>
+      <value>Tactile switch R/A</value>
       <footprint>jakub:tactileSwitchRA</footprint>
       <fields>
         <field name="Part Number">MCDTSA6-5N</field>
@@ -207,7 +207,7 @@
       <tstamp>55738611</tstamp>
     </comp>
     <comp ref="P3">
-      <value>Micro-MaTch 14 way</value>
+      <value>14-way Micro-MaTch</value>
       <footprint>jakub:1-188275-4</footprint>
       <fields>
         <field name="Part Number">8-188275-4</field>
@@ -224,7 +224,7 @@
       <tstamp>5573894C</tstamp>
     </comp>
     <comp ref="P5">
-      <value>Socket_1x4</value>
+      <value>1x4 socket strip</value>
       <footprint>jakub:ESQ-104-33-G-S</footprint>
       <fields>
         <field name="Part Number">ESQ-104-33-G-S</field>

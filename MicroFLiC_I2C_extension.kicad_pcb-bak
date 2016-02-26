@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.0-2.201512091501+6195~38~ubuntu14.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew "(2015-12-10 BZR 6367)-product")
 
   (general
     (links 70)
@@ -937,7 +937,7 @@
   (gr_text GND (at 136.144 113.03 90) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify right))
   )
-  (gr_text "MicroFLIC I2C, Pin extension\nReset switch, DIP switch v1.0\nJakub Nedbal 2015" (at 132.08 126.238) (layer F.SilkS)
+  (gr_text "MicroFLIC I2C, Pin extension\nReset switch, DIP switch v1.1\nJakub Nedbal 2016" (at 132.08 126.238) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 149.86 100.076) (end 149.86 149.86) (angle 90) (layer Edge.Cuts) (width 0.1))

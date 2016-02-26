@@ -1,11 +1,11 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
-P1 ,1,Header_1x14,Pin_Headers:Pin_Header_Straight_1x14,,MC34735,Multicomp,SIL-14,Farnell,1593421,Mouser,855-M20-9991446,1x14 header strip
-P2 ,1,Socket_1x14,jakub:ESQ-114-33-G-S,,ESQ-114-33-G-S,Samtec,SIL-14,Farnell,1930609,Samtec,ESQ-114-33-G-S,1x14 ESQ series elevated socket strip
-P3 ,1,Micro-MaTch 14 way,jakub:1-188275-4,,8-188275-4,TE Connectivity,Micro-MaTch SMD 14,Farnell,3784769,Mouser,571-8-188275-4,14-way SMD Micro-MaTch connector
-P4 ,1,Header_1x4,Pin_Headers:Pin_Header_Straight_1x04,,M20-9990445,Samtec,SIL-4,Farnell,1022250,Mouser,855-M20-9990445,1x4 header strip
-P5 ,1,Socket_1x4,jakub:ESQ-104-33-G-S,,ESQ-104-33-G-S,Samtec,SIL-4,Farnell,1928522,Samtec,ESQ-104-33-G-S,1x4 ESQ series elevated socket strip
+P1 ,1,1x14 header strip,Pin_Headers:Pin_Header_Straight_1x14,,MC34735,Multicomp,SIL-14,Farnell,1593421,Mouser,855-M20-9991446,1x14 header strip
+P2 ,1,1x14 socket strip,jakub:ESQ-114-33-G-S,,ESQ-114-33-G-S,Samtec,SIL-14,Farnell,1930609,Samtec,ESQ-114-33-G-S,1x14 ESQ series elevated socket strip
+P3 ,1,14-way Micro-MaTch,jakub:1-188275-4,,8-188275-4,TE Connectivity,Micro-MaTch SMD 14,Farnell,3784769,Mouser,571-8-188275-4,14-way SMD Micro-MaTch connector
+P4 ,1,1x4 header strip,Pin_Headers:Pin_Header_Straight_1x04,,M20-9990445,Samtec,SIL-4,Farnell,1022250,Mouser,855-M20-9990445,1x4 header strip
+P5 ,1,1x4 socket strip,jakub:ESQ-104-33-G-S,,ESQ-104-33-G-S,Samtec,SIL-4,Farnell,1928522,Samtec,ESQ-104-33-G-S,1x4 ESQ series elevated socket strip
 P6 ,1,DB15-VGA,jakub:dsub15,,L77HDE15SD1CH4F,Amphenol,DSUB15,Farnell,2401182,Mouser,523-L77HDE15SD1CH4F,15-way D-Sub high density connector
 P7 ,1,RJ45,jakub:RJ45,,95501-2881,Molex,RJ45,Farnell,1524544,Mouser,538-95501-2881,RJ45 8-way R/A jack
 R1 R2 R3 R4 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
-SW1 ,1,SW_PUSH,jakub:tactileSwitchRA,,MCDTSA6-5N,Multicomp,RA pushbutton,Farnell,9471804,Mouser,506-FSMRA3JH,R/A tactile switch
+SW1 ,1,Tactile switch R/A,jakub:tactileSwitchRA,,MCDTSA6-5N,Multicomp,RA pushbutton,Farnell,9471804,Mouser,506-FSMRA3JH,R/A tactile switch
 SW2 ,1,DIPS_04,jakub:DIP4RA,,MCDA04,Multicomp,DIL-8,Farnell,9471545,Mouser,642-DPL04,4x vertical SPST DIP switch
