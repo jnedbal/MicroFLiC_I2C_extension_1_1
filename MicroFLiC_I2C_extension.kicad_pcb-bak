@@ -3,7 +3,7 @@
   (general
     (links 70)
     (no_connects 0)
-    (area 99.001476 87.834999 151.474334 154.757001)
+    (area 100.025999 100.025999 149.910001 149.910001)
     (thickness 1.6)
     (drawings 84)
     (tracks 253)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -326,7 +326,7 @@
     (fp_text reference SW1 (at 0 1.27 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value SW_PUSH (at 0 2.54 180) (layer F.SilkS) hide
+    (fp_text value "Tactile switch R/A" (at 0 2.54 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.2 -8.15) (end 1.2 -8.15) (layer F.SilkS) (width 0.15))
@@ -477,7 +477,7 @@
     (fp_text reference P1 (at 0 2.54 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Header_1x14 (at 0 3.1 180) (layer B.Fab) hide
+    (fp_text value "1x14 header strip" (at 0 3.1 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.75 1.75) (end -1.75 -34.8) (layer B.CrtYd) (width 0.05))
@@ -534,7 +534,7 @@
     (fp_text reference P2 (at 0 -2.54 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.12)))
     )
-    (fp_text value Socket_1x14 (at 0 -3.1) (layer F.Fab) hide
+    (fp_text value "1x14 socket strip" (at 0 -3.1) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 34.8) (layer F.CrtYd) (width 0.05))
@@ -585,7 +585,7 @@
     (fp_text reference P3 (at 10.795 0 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 8-188275-4 (at -10.795 0 90) (layer F.SilkS) hide
+    (fp_text value "14-way Micro-MaTch" (at -10.795 0 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -9.9 1.016) (end -9.9 2.5) (layer F.SilkS) (width 0.3))
@@ -639,7 +639,7 @@
     (fp_text reference P4 (at 0 2.54 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value Header_1x4 (at 0 3.1 180) (layer B.Fab) hide
+    (fp_text value "1x4 header strip" (at 0 3.1 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -1.75 1.75) (end -1.75 -9.4) (layer B.CrtYd) (width 0.05))
@@ -676,7 +676,7 @@
     (fp_text reference P5 (at -2.54 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Socket_1x4 (at 0 -3.1 270) (layer F.Fab) hide
+    (fp_text value "1x4 socket strip" (at 0 -3.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.75 -1.75) (end -1.75 1.75) (layer F.CrtYd) (width 0.05))

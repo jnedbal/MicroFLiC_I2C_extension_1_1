@@ -58,7 +58,7 @@ F 1 "1x4 header strip" V 6900 4450 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 6800 4450 60  0001 C CNN
 F 3 "" H 6800 4450 60  0000 C CNN
 F 4 "M20-9990445" H 6800 4450 60  0001 C CNN "Part Number"
-F 5 "Samtec" H 6800 4450 60  0001 C CNN "Manufacturer"
+F 5 "Harwin" H 6800 4450 60  0001 C CNN "Manufacturer"
 F 6 "SIL-4" H 6800 4450 60  0001 C CNN "Package"
 F 7 "Farnell" H 6800 4450 60  0001 C CNN "Supplier"
 F 8 "1022250" H 6800 4450 60  0001 C CNN "Order Code"
@@ -623,12 +623,12 @@ F 2 "jakub:tactileSwitchRA" H 3600 4500 60  0001 C CNN
 F 3 "" H 3600 4500 60  0000 C CNN
 F 4 "MCDTSA6-5N" H 3600 4500 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3600 4500 60  0001 C CNN "Manufacturer"
-F 6 "RA pushbutton" H 3600 4500 60  0001 C CNN "Package"
+F 6 "R/A pushbutton" H 3600 4500 60  0001 C CNN "Package"
 F 7 "Farnell" H 3600 4500 60  0001 C CNN "Supplier"
 F 8 "9471804" H 3600 4500 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 3600 4500 60  0001 C CNN "Alt. Supplier"
 F 10 "506-FSMRA3JH" H 3600 4500 60  0001 C CNN "Alt. Order Code"
-F 11 "R/A tactile switch" H 3600 4500 60  0001 C CNN "Note"
+F 11 "Right-angle tactile switch" H 3600 4500 60  0001 C CNN "Note"
 	1    3600 4500
 	1    0    0    -1  
 $EndComp

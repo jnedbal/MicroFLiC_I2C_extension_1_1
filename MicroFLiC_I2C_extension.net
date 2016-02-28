@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jakub/KiCAD/MicroFLiC_I2C_extension_1_1/MicroFLiC_I2C_extension.sch)
-    (date "Fri 26 Feb 2016 22:45:48 GMT")
+    (date "Sun 28 Feb 2016 00:23:56 GMT")
     (tool "Eeschema (2015-12-10 BZR 6367)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -20,7 +20,7 @@
       (footprint Pin_Headers:Pin_Header_Straight_1x04)
       (fields
         (field (name "Part Number") M20-9990445)
-        (field (name Manufacturer) Samtec)
+        (field (name Manufacturer) Harwin)
         (field (name Package) SIL-4)
         (field (name Supplier) Farnell)
         (field (name "Order Code") 1022250)
@@ -171,12 +171,12 @@
       (fields
         (field (name "Part Number") MCDTSA6-5N)
         (field (name Manufacturer) Multicomp)
-        (field (name Package) "RA pushbutton")
+        (field (name Package) "R/A pushbutton")
         (field (name Supplier) Farnell)
         (field (name "Order Code") 9471804)
         (field (name "Alt. Supplier") Mouser)
         (field (name "Alt. Order Code") 506-FSMRA3JH)
-        (field (name Note) "R/A tactile switch"))
+        (field (name Note) "Right-angle tactile switch"))
       (libsource (lib device) (part SW_PUSH))
       (sheetpath (names /) (tstamps /))
       (tstamp 55738611))
@@ -349,10 +349,10 @@
   (libraries
     (library (logical device)
       (uri /usr/local/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical jakub)
-      (uri /home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib)))
+      (uri /home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib))
+    (library (logical conn)
+      (uri /usr/local/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name /SDA_5V)
       (node (ref P6) (pin 14))

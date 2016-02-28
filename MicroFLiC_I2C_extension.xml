@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_I2C_extension_1_1/MicroFLiC_I2C_extension.sch</source>
-    <date>Fri 26 Feb 2016 22:45:49 GMT</date>
+    <date>Sun 28 Feb 2016 00:23:58 GMT</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,7 @@
       <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
       <fields>
         <field name="Part Number">M20-9990445</field>
-        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer">Harwin</field>
         <field name="Package">SIL-4</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1022250</field>
@@ -195,12 +195,12 @@
       <fields>
         <field name="Part Number">MCDTSA6-5N</field>
         <field name="Manufacturer">Multicomp</field>
-        <field name="Package">RA pushbutton</field>
+        <field name="Package">R/A pushbutton</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">9471804</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">506-FSMRA3JH</field>
-        <field name="Note">R/A tactile switch</field>
+        <field name="Note">Right-angle tactile switch</field>
       </fields>
       <libsource lib="device" part="SW_PUSH"/>
       <sheetpath names="/" tstamps="/"/>
@@ -411,11 +411,11 @@
     <library logical="device">
       <uri>/usr/local/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
